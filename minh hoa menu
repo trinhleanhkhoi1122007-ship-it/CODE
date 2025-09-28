@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color:rgb(191, 11, 11); text-align: center;}
+        .menu{
+            background-color: gainsboro;
+            width: 1200px;
+            height: 20px;
+        }
+        .menu li{
+            list-style-type: none;
+            float: left;
+        }
+        .menu li a{
+            text-decoration: none;
+            color: black;
+            padding: 0 20px;
+        }
+        .menu li a:hover {
+            background-color: gray;
+            border-bottom: 2px red solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>MINH HỌA MENU NGANG - MỘT CẤP</h1>
+    <div class="menu">
+        <ul class="menu li"; class="menu li a";class="menu li a:hover">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Trang chủ</a></li>
+            
+        </ul>
+    </div>
+</body>
+</html>
