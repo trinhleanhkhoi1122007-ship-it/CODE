@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border:solid red;
+            height: 200px;
+            border-radius:2%;
+            margin: 5px;
+            background-color: red;
+        } 
+
+        .box2{
+            border:solid green;
+            height: 200px;
+            border-radius:2%;
+            margin: 5px;
+            background-color: green;
+        } 
+        .box1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .box3{
+            border: solid violet;
+            height: 410px;
+            border-radius: 2%;
+            margin: 5px;
+            background-color: violet;
+        }
+        .box4{
+            display: grid;
+            grid-template-columns: 33.5% auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div> 
+    </div> 
+    <div class="box4">
+        <div>
+            <div class="box2"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="box3"></div> 
+    </div>
+</body>
+</html>
